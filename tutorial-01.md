@@ -40,8 +40,8 @@ the base image, download our repository containing the `Vagrantfile` and
 execute the `vagrant up` command in the same directory as the `Vagrantfile`:
 
 ```.sh
-git clone https://github.com/ekiwi/cs267.git
-cd cs267
+git clone https://github.com/ekiwi/cs267-tutorials.git
+cd cs267-tutorials
 vagrant box add ubuntu/bionic64
 vagrant up
 ```
@@ -49,7 +49,7 @@ vagrant up
 ### Using the VM
 
 Once the VM is built and launched, you can use `vagrant ssh` to login.
-The `hw` folder will mirror the content of the `cs267` folder on your
+The `hw` folder will mirror the content of the `cs267-tutorials` folder on your
 machine. Thus you could use a local (graphical) editor on your machine to
 edit the local file and all changes will also be available on your VM
 where you can compile them.
@@ -190,30 +190,3 @@ code lines of code to visually match them up with the corresponding lines of ass
 and it will use some advanced symbol lookup techniques to place more human-readable names
 for your functions and variables in the assembly output.
 
-## C/C++ Debugging
-
-lel
-
-### address sanitizer
-
-lel
-
-### other sanitizers
-
-### gdb
-
-lel
-
-## make
-
-lelel
-
-
-## C/C++
-
-Types pls
-
-## Common pitfalls?
-
-Pits
-Using Java, emacs
